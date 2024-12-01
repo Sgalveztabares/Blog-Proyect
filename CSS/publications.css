@@ -1,6 +1,6 @@
 main{
     margin-top: 10vh;
-    padding: 5vh;
+    padding: 5vh;   
 }
 
 
@@ -25,9 +25,44 @@ main{
     padding-bottom: 10px;
 }
 
+
 .card img{
     margin-bottom: 15px;
     border-radius: 10px;
 }
 
+@media (min-width: 768px){
+    
+
+    .card{
+        margin-left: 28%;
+        width: 60vh;
+        height: 28em;
+    }
+
+    .img1{
+        height: 90% !important;
+        width: 90%;
+    }
+  
+    .img2{
+        height: 80%;
+        width: 95%;
+    }
+}
+
+@media (min-width: 1024px){
+
+    .articles_list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .card{
+        margin:0 20px ;
+        width: 60vh;
+        height: 30em;
+    }
+}
 
