@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Mi espacio virtual</title>
 </head>
 <body>
@@ -20,9 +21,10 @@
 
     <main>
             
-        <section class="publicaiv">
+        <section class="publications">
+            <div class="articles_list">
             <div class="card" id="card">
-                <article><div><img src="/imagenes/img1.jpeg" alt="" width="100%" height="40%"></div>
+                <article><div class="container"><img src="/imagenes/img1.jpeg" alt="" class="img1" width="100%" height="40%"></div>
                 <h2>Deja de Procrastinar</h2> 
                 <label for="">2 de Febrero 2024</label><br>
                 <p>La procrastinación es la acción de poner excusas para poponer el hacer algo que no solemos querer hacer, o que simplemente no queremos hacer pero debemos,
@@ -30,7 +32,7 @@
             </div>
 
             <div class="card" id="card">
-                <article><div><img src="/imagenes/img2.jpeg" alt="" width="100%" height="50%"></div>
+                <article><div class=    "container"><img src="/imagenes/img2.jpeg" alt="" class="img2" width="100%" height="50%"></div>
                 <h2>Disfruta el Momento</h2>
                 <label for="">18 Octubre de 2024</label><br>          
                 <p>En un mundo acelerado, a menudo olvidamos detenernos y disfrutar el presente. En este articulo te enseñara 
@@ -38,19 +40,44 @@
             </div>
 
             <div class="card" id="card">
-                <article><div><img src="/imagenes/img3.jpg" alt=""  width="100%" height="60%"></div>
+                <article><div class="container"><img src="/imagenes/img3.jpg" alt="" class="img3" width="100%" height="60%"></div>
                     <h2>Consigue tus Metas</h2>
                     <label for="">25 Junio de 2024</label><br>        
                     <p>Aveces creemos que estamos estancados, y que no estamos haciendo lo suficiente para cumplir nuestras metas. Este articulo habran pasos y diferentes
                         metodos que te pueden ayudar a conseguir esas metas a las que tanto quieres llegar.
                     </p></article>
             </div>
-
+        </div>
         </section>
-        
-
     </main>
     
-    
+    <footer>
+        <label for="">© 2024 Mi Espacio Virtual</label> 
+        <div>
+            <section class="contact" id="contact">
+                <legend>Deja tus comentarios</legend>
+                <form action="">
+                    <label for="">Nombre</label><br>
+                    <input type="text" name="name" placeholder="Name" required>
+                    <br>
+                    <label for="">Correo Electronico</label><br>
+                    <input type="email" name="email" placeholder="example@gmail.com" required>
+                    <br>
+                    <label for="">Mensaje</label><br>
+                    <textarea name="message" id="message" placeholder="Mensaje" required></textarea>
+                    <br>
+                    <button>Enviar</button>
+
+                </form>
+            </section>
+        </div>
+        <ul>
+            <li><i class="fa-brands fa-instagram"></i> Instagram</li>
+            <li><i class="fa-brands fa-facebook"></i> Facebook</li>
+        </ul>
+
+        
+    </footer>
+
 </body>
 </html>
